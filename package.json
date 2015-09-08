@@ -1,0 +1,29 @@
+{
+  "name": "test-app-module-path-in-setup",
+  "version": "0.0.1",
+  "description": "Test if you can use app-module-path in a setup file",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ariporad/test-app-module-path-in-setup.git"
+  },
+  "author": {
+    "name": "Ari Porad",
+    "email": "ari@ariporad.com",
+    "url": "http://ariporad.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ariporad/test-app-module-path-in-setup/issues"
+  },
+  "homepage": "https://github.com/ariporad/test-app-module-path-in-setup#readme",
+  "dependencies": {
+    "app-module-path": "^1.0.4",
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
+    "require-directory": "^2.1.1"
+  }
+}
